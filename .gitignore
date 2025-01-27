@@ -1,0 +1,6 @@
+lib
+node_modules
+.husky
+coverage
+src/__image_diffs__
+src/__image_snapshots__/test-image-snapshot-extension-when-the-snapshot-does-not-exist-(dev-mode)-should-write-a-snapshot.png
