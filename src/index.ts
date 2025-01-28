@@ -1,9 +1,9 @@
 import path from 'path';
 import { MatcherState } from '@vitest/expect';
-import { SnapshotWriterFactory } from './snapshot-writer';
-import { SnapshotMatcherFactory } from './snapshot-matcher';
-import { NodeFileSystem } from './filesystem';
-import { PNGComparator } from './image-comparator';
+import { SnapshotWriterFactory } from './snapshot-writer.js';
+import { SnapshotMatcherFactory } from './snapshot-matcher.js';
+import { NodeFileSystem } from './filesystem.js';
+import { PNGComparator } from './image-comparator.js';
 
 function snapshotName(testPath: string, snapshotsDir: string, testName: string): string {
     return path.join(path.dirname(testPath), snapshotsDir, `${testName}.png`);

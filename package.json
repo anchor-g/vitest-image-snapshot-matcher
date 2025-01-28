@@ -1,6 +1,6 @@
 {
   "name": "vitest-image-snapshot-matcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vitest matcher for image snapshot testing",
   "main": "lib/index.js",
   "type": "module",

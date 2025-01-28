@@ -1,7 +1,7 @@
 import path from 'path';
-import { FileSystem } from './filesystem';
-import { ImageComparator } from './image-comparator';
-import { SnapshotWriterInterface, UpdateSnapshotMode } from './snapshot-writer';
+import { FileSystem } from './filesystem.js';
+import { ImageComparator } from './image-comparator.js';
+import { SnapshotWriterInterface, UpdateSnapshotMode } from './snapshot-writer.js';
 
 abstract class SnapshotMatcher {
     constructor(

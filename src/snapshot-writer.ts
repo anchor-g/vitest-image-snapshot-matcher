@@ -1,5 +1,5 @@
 import path from 'path';
-import { FileSystem } from './filesystem';
+import { FileSystem } from './filesystem.js';
 
 export interface SnapshotWriterInterface {
     updateSnapshot(snapshot: Buffer): void;
